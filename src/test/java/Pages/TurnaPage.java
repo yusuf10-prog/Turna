@@ -10,7 +10,6 @@ public class TurnaPage {
     public TurnaPage(){
         PageFactory.initElements(Driver.getAndroidDriver(),this);
     }
-
     @FindBy(xpath = "//*[@text='Hesabım']")
     public WebElement hesabim;
 }
